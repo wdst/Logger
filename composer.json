@@ -1,0 +1,25 @@
+{
+    "name": "wdst/logger",
+    "version": "1.0.0",
+    "description": "Логирование",
+
+    "keywords": [
+        "lockfile"
+    ],
+    "authors": [
+        {
+            "name": "wdst",
+            "email": "wds@mail.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "psr/log": "*"
+    
+    },
+    "autoload": {
+        "psr-4": {
+            "wdst\\logger\\": ""
+        }
+    }
+}

@@ -16,7 +16,7 @@ Class Logger extends AbstractLogger
      */
     public function log($level, $message, array $context = array())
     {
-        $format = '[%s] [%s] %s' . PHP_EOL;
+        $format = '[%s] [%s] %s';
         printf($format, $this->getDate(), strtoupper($level), $message);
     }
 

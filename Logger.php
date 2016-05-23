@@ -16,7 +16,7 @@ Class Logger extends AbstractLogger
      */
     public function log($level, $message, array $context = array())
     {
-        $format = '[%s] [%s] %s';
+        $format = "[%'0-26s] [%s] %s";
         printf($format, $this->getDate(), strtoupper($level), $message);
     }
 
